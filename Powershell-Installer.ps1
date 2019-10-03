@@ -206,7 +206,7 @@ do
                     #Microsoft
                     #Office365
                     cd "\\ad.beeverstruthers.co.uk\shared\Software\odt\"
-                    $365 = .\setup.exe /configure .\Configuration.xml
+                    $365 = .\setup.exe /configure .\Configuration_x86.xml
                     Start-Process $365
                     Start-Sleep -s 2
                     $365Proc = (Get-Process setup).Id
